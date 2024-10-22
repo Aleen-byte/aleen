@@ -131,11 +131,19 @@ header {
         top: 13px;
     }
 
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #mobile_nav_list {
         display: flex;
         flex-direction: column;
         gap: 12px;
         margin: 12px 0px;
+        transition: 2s ease-in-out;
+        animation: fadeIn .5s ease-in-out;
     }
 
     #mobile_nav_list .nav-item {
