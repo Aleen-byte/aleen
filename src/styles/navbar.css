@@ -34,12 +34,14 @@ header {
 .fa-meteor {
     color: #c90ee2;
     font-size: 25px;
-
-
 }
 
 .fa-meteor span {
     color: #c90ee2;
+}
+
+.fa-meteor span:hover {
+    color: rgb(46.743% 91.883% 18.501%);
 }
 
 #nav_list{

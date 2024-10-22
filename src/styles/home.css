@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-top: 50px;
+    margin-top: 140px;
     z-index: 2;
 }
 
@@ -39,7 +39,7 @@
     width: 100%;
     z-index: 2;
     position: absolute;
-    right: 165px;
+    right: 195px;
     top: 145px;
     user-select: none;
 
@@ -60,7 +60,7 @@
     border: 0 solid rgb(0.93859% 2.6552% 6.3784%);
     border-radius: 50%;
     z-index: 1;
-    right: 90px;
+    right: 125px;
     top: 70px;
 }
 
@@ -68,7 +68,6 @@
     border-bottom-width: 8px;
     border-color: rgb(56.477% 70.385% 81.785%);
     animation: rotate1 3s linear infinite;
-    z-index: 1;
     width: 522px;
     height: 522px;
 }
@@ -77,7 +76,6 @@
     border-right-width: 8px;
     border-color: rgb(46.743% 91.883% 18.501%);
     animation: rotate2 3s linear infinite;
-    z-index: 1;
     width: 522px;
     height: 522px;
 }
@@ -86,7 +84,6 @@
     border-top-width: 8px;
     border-color: rgb(88.826% 4.6779% 96.658%);
     animation: rotate3 3s linear infinite;
-    z-index: 1;
     width: 522px;
     height: 522px;
 }
@@ -126,30 +123,31 @@
     }
 
     #banner{
-        top: 35px;
+        top: 85px;
         right: 0;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
     #banner img{
+        height: 300px;
         width: fit-content;
         right: 0;
 
     }
     .shape {
-        right: 0;
-        top: 3px;
+        display: none;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-
+        right: 0;
+        top: 43px;
     }
     .shape:nth-child(1),
     .shape:nth-child(2),
     .shape:nth-child(3) {
-        display: none;
-
+        width: 400px;
+        height: 400px;
     }
 
     .title{
