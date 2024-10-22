@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="src/styles/navbar.css">
+    <link rel="stylesheet" href="src/styles/home.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>MyPage</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-meteor"> <span>Aleen</span></i>
+
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#aboutme">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">Projetos</a>
+                </li>
+            </ul>
+
+
+            <button class="btn-default">
+                Contato
+            </button>
+
+            <button id="mobile_btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#aboutme">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects">Projetos</a>
+                </li>
+            </ul>
+            
+            <button class="btn-default">
+                Contato
+            </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div class="shape"></div>
+            <div>
+                <h1 class="title">
+                    Olá, me chamo
+                    <span>Théo Alencar</span>
+                </h1>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nisi earum incidunt consequatur quos fugit odio natus dolores, iure odit est sed voluptas nostrum libero quod nesciunt exercitationem consectetur. Molestiae.
+                </p>
+
+                <div id="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/theo_aleen_/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://github.com/Aleen-byte" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/foto0.png" alt="">
+            </div>
+        </section>
+
+        <section id="sobre-mim">
+            <h2 class="section-title">Sobre mim</h2>
+            <h3 class="section-subtitle">Olá</h3>
+
+            <div id="eu">
+                <div class="about1">
+                    <div class="about1-icon">
+                        <i class="fa-solid fa-meteor"></i>
+                    </div>
+
+                    <img src="src/images/nexus2.jpg" class="nexus" alt="">
+
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
